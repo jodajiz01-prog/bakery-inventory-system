@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<nav th:fragment="navbar" class="navbar navbar-dark bg-dark mb-4">
+    <div class="container-fluid">
+        <a class="navbar-brand" th:href="@{/products}">🍞 Panadería Los Ángeles</a>
+        <div class="d-flex align-items-center">
+            <a th:href="@{/products}" class="btn btn-outline-light btn-sm me-2">Productos</a>
+            <a th:href="@{/inventory/history}" class="btn btn-outline-light btn-sm me-2">Historial</a>
+            <form th:action="@{/logout}" method="post" class="d-inline">
+                <button type="submit" class="btn btn-outline-light btn-sm">Cerrar sesión</button>
+            </form>
+        </div>
+    </div>
+</nav>
+</body>
+</html>
