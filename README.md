@@ -44,6 +44,4 @@ Este proyecto está inspirado en una necesidad real: la panadería de mi papá, 
 4. El sistema crea automáticamente un usuario Jefe (`admin`) y un usuario Empleado (`empleado`) la primera vez que arranca
 5. Acceder en `http://localhost:8080/products`
 
-## Capturas
 
-*(agregar aquí una o dos capturas de la lista de productos y del historial de movimientos)*
